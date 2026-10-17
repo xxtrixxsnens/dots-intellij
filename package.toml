@@ -1,0 +1,12 @@
+name = "intellij"
+version = "1.0.0"
+root = false
+
+[[includes]]
+path = "config/.*\\.dot\\.sym.*"
+destination = "$HOME"
+
+[[include_dirs]]
+path = "config/keymaps"
+destination = "$CONFIG/JetBrains/IntelliJIdea202X.X/keymaps"
+operation = "sym"

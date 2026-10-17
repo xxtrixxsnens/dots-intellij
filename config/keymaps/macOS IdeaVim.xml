@@ -1,0 +1,26 @@
+<keymap version="1" name="macOS IdeaVim" parent="Mac OS X 10.5+">
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="meta number_sign" />
+  </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="SearchEverywhereNewToolbarAction">
+    <keyboard-shortcut first-keystroke="space" second-keystroke="space" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl #10000c4" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl #10000d6" />
+  </action>
+  <action id="SwitchIdeScaleAction">
+    <keyboard-shortcut first-keystroke="ctrl plus" />
+  </action>
+</keymap>
